@@ -27,6 +27,11 @@ package:
     dependencies:
       - console
       - effect
+      - aff
+      - assert
+      - control
+      - exceptions
+      - partial
 workspace:
   extraPackages: {}
   packageSet:

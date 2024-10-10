@@ -4,7 +4,7 @@ import Prelude
 
 import CSS.Common (hidden, inherit, initial, unset, visible)
 import CSS.Display (collapse, visibility)
-import Common (shouldRenderFrom)
+import Test.Common (shouldRenderFrom)
 import Control.Monad.Reader.Class (class MonadReader)
 import Data.Traversable (traverse_)
 import Data.Tuple.Nested ((/\))
