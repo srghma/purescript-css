@@ -1,4 +1,4 @@
-module CSS.BorderSpec where
+module Test.CSS.BorderSpec where
 
 import Prelude
 

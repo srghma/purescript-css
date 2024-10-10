@@ -1,0 +1,33 @@
+package:
+  name: css
+  publish:
+    license: Apache-2.0
+    version: 6.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-css
+  dependencies:
+    - arrays
+    - colors
+    - console
+    - effect
+    - either
+    - exists
+    - foldable-traversable
+    - maybe
+    - nonempty
+    - prelude
+    - profunctor
+    - strings
+    - these
+    - transformers
+    - tuples
+  test:
+    main: Test.Main
+    dependencies:
+      - console
+      - effect
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.5.0

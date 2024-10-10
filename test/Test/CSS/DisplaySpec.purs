@@ -1,4 +1,4 @@
-module CSS.DisplaySpec where
+module Test.CSS.DisplaySpec where
 
 import Prelude
 
